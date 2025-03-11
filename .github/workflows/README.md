@@ -1,5 +1,7 @@
 # Actions
 
+When publishing a new version the release workflow will trigger and will publish the new version of the robotics-academy docker and the robotics-database docker images.
+
 ## Github Action _Release Robotics Academy_
 
 This action should be used when releasing a new RoboticsAcademy version and when the automatic one failed to do so on the new version release. **You should not use this action when creating a beta or testing image**. For that purpose use _Generate Robotics Academy_ or _Generate Robotics Academy Database_.
